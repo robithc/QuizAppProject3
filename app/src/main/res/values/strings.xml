@@ -20,4 +20,10 @@
     <string name="question_3_answer_1">Zinedine Zidane</string>
     <string name="question_3_answer_2">David Beckham</string>
     <string name="question_3_answer_3">Luis Figo</string>
+
+    <string name="question_4">Question 4:</string>
+    <string name="question_4_text">In what year were Real Madrid formed? </string>
+    <string name="question_4_answer_1">1905</string>
+    <string name="question_4_answer_2">1902</string>
+    <string name="question_4_answer_3">1910</string>
 </resources>

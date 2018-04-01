@@ -11,6 +11,7 @@
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_weight="1"
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
@@ -156,11 +157,66 @@
                 android:text="@string/question_3_answer_3" />
         </RadioGroup>
 
+        <TextView
+
+            android:id="@+id/question_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:text="@string/question_4" />
+
+        <TextView
+            android:id="@+id/question_4_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:text="@string/question_4_text" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question_4_answer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question_4_answer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/question_4_answer_1" />
+
+            <RadioButton
+
+                android:id="@+id/question_4_answer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/question_4_answer_2" />
+
+            <RadioButton
+
+                android:id="@+id/question_4_answer_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/question_4_answer_3" />
+        </RadioGroup>
+
     </LinearLayout>
 
 
 </ScrollView>
 
+    <ImageView
+        android:layout_weight="2"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
 
 </LinearLayout>
