@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">QuizAppProject3</string>
     <string name="logo"></string>
-    <string name="header">Let\'s see how much you know about Real Madrid</string>
+    <string name="header">Let\'s see how much you know about Real Madrid ;)</string>
 
     <string name="question_1">Question 1:</string>
     <string name="question_1_text">Who was the club president with the \'galactico\' dream? </string>
@@ -26,4 +26,6 @@
     <string name="question_4_answer_1">1905</string>
     <string name="question_4_answer_2">1902</string>
     <string name="question_4_answer_3">1910</string>
+
+    <string name="score">Show Score</string>
 </resources>

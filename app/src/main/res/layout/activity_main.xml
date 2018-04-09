@@ -79,32 +79,47 @@
             android:id="@+id/question_2_answer_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="Checkbox_2_Check"
+
             android:text="@string/question_2_answer_1" />
 
         <CheckBox
+
             android:id="@+id/question_2_answer_2"
             android:text="@string/question_2_answer_2"
+            android:checked="false"
+            android:onClick="Checkbox_2_Check"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:onClick="Question_2_Check"
+
             android:id="@+id/question_2_answer_3"
             android:text="@string/question_2_answer_3"
+            android:checked="false"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:onClick="Checkbox_2_Check"
+
             android:id="@+id/question_2_answer_4"
             android:text="@string/question_2_answer_4"
+            android:checked="false"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:onClick="Checkbox_2_Check"
+
             android:id="@+id/question_2_answer_5"
             android:text="@string/question_2_answer_5"
+            android:checked="false"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -138,11 +153,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+
                 android:text="@string/question_3_answer_1" />
 
             <RadioButton
 
                 android:id="@+id/question_3_answer_2"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
@@ -153,6 +170,7 @@
                 android:id="@+id/question_3_answer_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
 
                 android:text="@string/question_3_answer_3" />
         </RadioGroup>
@@ -186,6 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+
                 android:text="@string/question_4_answer_1" />
 
             <RadioButton
@@ -194,9 +213,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+
                 android:text="@string/question_4_answer_2" />
 
             <RadioButton
+
 
                 android:id="@+id/question_4_answer_3"
                 android:layout_width="wrap_content"
@@ -204,6 +225,16 @@
 
                 android:text="@string/question_4_answer_3" />
         </RadioGroup>
+
+        <Button
+            android:id="@+id/score_button"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:layout_gravity="center"
+            android:onClick="score"/>
 
     </LinearLayout>
 
